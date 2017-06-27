@@ -1,0 +1,82 @@
+                          USING SNOOP/2
+
+
+MAKING CHOICES
+==============
+
+    The main problem people have when using SNOOP/2 for the first time
+    is the menu system. The menu structure is split into two levels
+
+        Level 1 - Select between one of three choices
+            1) View OS/2 objects - device drivers, semaphores etc.
+            2) View protected mode structures - gdt, ldt, call gates etc.
+            3) General - Edit memory, disassemble memory etc.
+
+        Level 2 - Select the specific item.
+
+    IN ORDER TO SELECT AN ITEM YOU MUST FIRST MAKE A CHOICE AT LEVEL 1
+    THEN AT LEVEL 2.
+
+    There are three ways of making a menu choice :
+
+    1) The slow way - Position the highlighted bar over the choice of interest
+        using the space/backspace keys, make the choice by hitting the
+        return key
+
+    2) The best way - Type the number in front of the menu choice. So to
+        view semaphores you would type 1 followed by 6. To view device
+        drivers you would type 1 followed by 1 etc.
+
+    3) The mouse way - Position the mouse over the choice of interest and
+        click the left mouse button. Do not forget you must make a level 1
+        choice first before you can make a level 2 choice
+
+
+    In order to exit a choice there are three ways :
+
+    1) Type the ESCape key
+
+    2) Type the cancel key F2
+
+    3) Click the right mouse button.
+
+    To terminate SNOOP/2 there are three ways :
+
+    1) Type the kill key F3
+
+    2) Type Control C
+
+    3) Use the Kill-By-Name program (bundled with SNOOP/2) to terminate
+       SNOOP/2
+
+    In all three cases you will be prompted with a Yes/No query to terminate
+    or not.
+
+
+DISASSEMBLE MEMORY - Choice 32
+==============================
+
+    The manual states that this is not implemented yet - it is. You must
+    first provide the physical address to disassemble.
+
+
+VIEWING OBJECTS
+===============
+
+    The manual does not document this but you may view many objects. First
+    select the object of interest and then hit return. This way you can
+    get a disassembly of a device driver, or view the data associated with
+    a region of shared memory.
+
+
+SUPPORT
+=======
+
+    Some questions are best answered over the phone - so if you have a problem
+    or you cannot see how to do something - ring us.
+
+            Voice (+44) 1305 871543
+            Fax   (+44) 1305 871688
+            e-mail abbot1@ibm.net
+
+
